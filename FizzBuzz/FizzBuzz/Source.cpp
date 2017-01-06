@@ -15,16 +15,13 @@ int main()
 
 void fizzBuzz(int maxNum)
 {
-	//ƒ‹[ƒv‚ª1‚©‚çŠJŽn‚·‚é‚Ì‚Å1‘«‚µ‚Ä‚¨‚­
-	maxNum += 1;
-
-	for (int i = 1; i < maxNum; i++)
+	for (int i = 1; i <= maxNum; i++)
 	{
 		std::cout << getFizzBuzz(i) + "\n";
 	}
 }
 
-//3‚ÅŠ„‚èØ‚ê‚é‚È‚çFizz 5‚ÅŠ„‚èØ‚ê‚é‚È‚çBuzz 15‚ÅŠ„‚èØ‚ê‚é‚È‚çFizzBuzz‚ð•Ô‚·
+//3ã§å‰²ã‚Šåˆ‡ã‚Œã‚‹ãªã‚‰Fizz 5ã§å‰²ã‚Šåˆ‡ã‚Œã‚‹ãªã‚‰Buzz 15ã§å‰²ã‚Šåˆ‡ã‚Œã‚‹ãªã‚‰FizzBuzzã‚’è¿”ã™
 std::string getFizzBuzz(int num)
 {
 	std::string result;
